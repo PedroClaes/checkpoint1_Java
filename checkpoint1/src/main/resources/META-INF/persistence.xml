@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence
+             https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+
+    <persistence-unit name="fiap-checkpoint1" transaction-type="RESOURCE_LOCAL">
+
+        <class>br.com.fiap.model.Funcionario</class>
+        <class>br.com.fiap.model.FuncionarioSenior</class>
+        <class>br.com.fiap.model.Estagiario</class>
+
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver"
+                      value="oracle.jdbc.OracleDriver"/>
+            <property name="jakarta.persistence.jdbc.url"
+                      value="jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL"/>
+            <property name="jakarta.persistence.jdbc.user"
+                      value="rm566058"/>
+            <property name="jakarta.persistence.jdbc.password"
+                      value="221106"/>
+
+            <property name="hibernate.dialect"
+                      value="org.hibernate.dialect.OracleDialect"/>
+
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+
+            <property name="hibernate.show_sql"   value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
