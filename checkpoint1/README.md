@@ -8,7 +8,7 @@ Demonstra **Herança**, **Polimorfismo**, **Anotações personalizadas**, **API 
 
 ## 👥 Integrantes
 | Nome | RM |
-|Pedro Gabriel Claes Ferreira|rm566058|
+|Pedro Gabriel Claes Ferreira| rm566058 |
 | Matheus Arazin | rm556649 |
 | Arthur Pioli | rm565597 |
 | Kevin Martins Campos | rm563454 |
@@ -116,7 +116,6 @@ DELETE FROM TB_FUNCIONARIO WHERE ID_FUNCIONARIO = 3;
 ---
 
 ## 📸 Evidências
-> Inserir aqui prints da execução no IntelliJ e das modificações no Oracle SQL Developer para cada etapa do CRUD (CREATE, READ, UPDATE, DELETE).
 
 ![img.png](img.png)
 ![img_2.png](img_2.png)

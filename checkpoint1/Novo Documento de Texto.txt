@@ -1,0 +1,11 @@
+Checkpoint 1 - Java Advanced
+Professor: Dr. Marcel Stefan Wagner
+
+## 👥 Integrantes
+| Nome | RM |
+|Pedro Gabriel Claes Ferreira| rm566058 |
+| Matheus Arazin | rm556649 |
+| Arthur Pioli | rm565597 |
+| Kevin Martins Campos | rm563454 |
+
+Link do repositório no GitHub: https://github.com/PedroClaes/checkpoint1_Java.git
